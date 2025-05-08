@@ -23,3 +23,11 @@ RunGame();
 ```
 File > New > New Substance
 ```
+
+```mermaid
+graph TD;
+  Start --> Input;
+  Input -->|Jump Key Pressed| Jump;
+  Jump --> Gravity;
+  Gravity --> End;
+```
